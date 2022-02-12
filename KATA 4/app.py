@@ -1,3 +1,4 @@
+# Archivo usado para probar código de la documentación
 fact = 'The Moon has no atmosphere.'
 fact + 'No sound can be heard on the Moon.'
 two_facts = fact + 'No sound can be heard on the Moon.'
@@ -35,3 +36,8 @@ mass_percentage = '1/6'
 print('On the Moon, you would weigh about {} of your weight on Earth'.format(
     mass_percentage))
 print(round(100/6, 1))
+
+print(f'On the Moon, you would weigh about {round(100/6, 1)}% of your weight on Earth')
+
+print("""You are lighter on the {moon}, because on the {moon} 
+... you would weigh about {mass} of your weight on Earth""".format(moon="Moon", mass=mass_percentage))
